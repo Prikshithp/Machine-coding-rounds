@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa rem deleniti eveniet quia fugiat placeat molestias adipisci ipsam. Odit reiciendis placeat totam, molestias dolores eveniet minima praesentium, rerum quidem voluptatum impedit, temporibus sint ex.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga laborum vero quae nam deleniti ipsa perspiciatis, tempore iusto dolore eos rerum, debitis sit.</p>
+</body>
+<script>
+    function changecolor(){ 
+    const paralist=document.querySelectorAll('p');
+    paralist.forEach(paragraph=>{
+        paragraph.style.color='red'
+    })
+}
+changecolor();
+</script>
+</html>
